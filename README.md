@@ -1,6 +1,6 @@
 # Data Science Specialisation
-### H3 Module 3 - Getting and Cleaning Data
-### H3 Course Project Readme file
+### Module 3 - Getting and Cleaning Data
+### Course Project Readme file
 
 This readme file explains:-
 
@@ -9,13 +9,13 @@ This readme file explains:-
 > 3) The source of the data
 > 4) How the R script (run_analysis.R) works
 
-### H3 1) Purpose
+### 1) Purpose
 
 > The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set.
 > 
 > The goal is to prepare tidy data that can be used for later analysis.
 
-### H3 2) Files contained in GitHub Repo
+### 2) Files contained in GitHub Repo
 
 The GitHub repo consist of 4 files as detailed below:-
 
@@ -24,13 +24,13 @@ The GitHub repo consist of 4 files as detailed below:-
 > 3) tidy_data.txt - Tidy Data file in .txt format.
 > 4) Codebook.md - This code book describes the variables, the data, and any transformations or work that was performed to clean up the data in order to produce a tidy data set.
 
-### H3 3) Data Source
+### 3) Data Source
 
 Data used for this course project is obtained from the link below:-
 
 > https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-### H3 4) Explanation of how the R script works
+### 4) Explanation of how the R script works
 
 > Step 1 - Clear workspace environment
 
