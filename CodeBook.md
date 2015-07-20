@@ -1,6 +1,6 @@
 # Data Science Specialisation
-### H3 Module 3 - Getting and Cleaning Data
-### H3 Course Project Code Book
+### Module 3 - Getting and Cleaning Data
+### Course Project Code Book
 
 This code book describes:-
 
@@ -8,7 +8,7 @@ This code book describes:-
 > 2) The data
 > 3) Work that was performed to clean up the data in order to produce a tidy data set
 
-### H3 1) Variables
+### 1) Variables
 
 The following are the variables names in the tidy data set before and after transformation:-
 
@@ -27,7 +27,7 @@ The following are the variables names in the tidy data set before and after tran
 | angle                  | Angle                |
 | gravity                | Gravity              |
 
-### H3 2) Data
+### 2) Data
 
 The data source is taken from:-
 
@@ -61,7 +61,7 @@ The following files are available for the train and test data. Their description
 
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
-### H3 3) Work performed to clean up the data and produce a tidy data set
+### 3) Work performed to clean up the data and produce a tidy data set
 
 An R script called run_analysis.R is used to:-
 
