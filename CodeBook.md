@@ -12,7 +12,7 @@ This code book describes:-
 
 ### 1) Variables
 
-The following are the variables names in the tidy data set before and after transformation:-
+The following are the variables names before and after transformation:-
 
 | Before transformation  | After transformation |
 | :--------------------- | :------------------- |
@@ -28,6 +28,8 @@ The following are the variables names in the tidy data set before and after tran
 | -freq()                | Frequency            |
 | angle                  | Angle                |
 | gravity                | Gravity              |
+
+The unit of measurement are in radians/second.
 
 ### 2) Data
 
@@ -53,15 +55,15 @@ The datasets included in the unzipped data file is as follows:-
 
 - 'test/y_test.txt': Test labels.
 
-The following files are available for the train and test data. Their descriptions are equivalent. 
+The following files are available for the train and test data. Their descriptions are equivalent.
 
-- 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
+- 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
 
-- 'train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. Every row shows a 128 element vector. The same description applies for the 'total_acc_x_train.txt' and 'total_acc_z_train.txt' files for the Y and Z axis. 
+- 'train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. Every row shows a 128 element vector. The same description applies for the 'total_acc_x_train.txt' and 'total_acc_z_train.txt' files for the Y and Z axis.
 
-- 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
+- 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration.
 
-- 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
+- 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.
 
 ### 3) Work performed to clean up the data and produce a tidy data set
 
