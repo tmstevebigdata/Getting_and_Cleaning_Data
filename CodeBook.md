@@ -126,11 +126,17 @@ The following are the list of all variables in the tidy data set:-
 
 ### 2) Data
 
+The original data is derived from the "Human Activity Recognition Using Smartphones Data Set".
+
+For a detailed explanation of the data set, refer to the following link:-
+
+> http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
 The data source is taken from:-
 
 > https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-The datasets included in the unzipped data file is as follows:-
+The datasets included in the unzipped data source file is as follows:-
 
 - 'README.txt'
 
