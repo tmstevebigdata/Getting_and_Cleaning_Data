@@ -5,11 +5,11 @@
 This readme file explains:-
 
 > 1) The purpose of the project
-> 
+
 > 2) The files contained in the GitHub repo
-> 
+
 > 3) The source of the data
-> 
+
 > 4) How the R script (run_analysis.R) works
 
 ### 1) Purpose
@@ -23,11 +23,11 @@ This readme file explains:-
 The GitHub repo consist of 4 files as detailed below:-
 
 > 1) README.md - This file explains the purpose of the project and the steps in the R code.
-> 
+
 > 2) run_analysis.R - The R source code used to product the Tidy Data file.
-> 
+
 > 3) tidy_data.txt - Tidy Data file in .txt format.
-> 
+
 > 4) Codebook.md - This code book describes the variables, the data, and any transformations or work that was performed to clean up the data in order to produce a tidy data set.
 
 ### 3) Data Source
