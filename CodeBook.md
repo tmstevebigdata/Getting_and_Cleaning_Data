@@ -5,7 +5,9 @@
 This code book describes:-
 
 > 1) The variables
+> 
 > 2) The data
+> 
 > 3) Work that was performed to clean up the data in order to produce a tidy data set
 
 ### 1) Variables
@@ -65,20 +67,20 @@ The following files are available for the train and test data. Their description
 
 An R script called run_analysis.R is used to:-
 
-1) Read the 'features' and 'activity labels' data.
+> 1) Read the 'features' and 'activity labels' data.
 
-2) Read the data sets contained in the 'train' and 'test' folders and combine them into a single data set.
+> 2) Read the data sets contained in the 'train' and 'test' folders and combine them into a single data set.
 
-3) Put proper column names for the data.
+> 3) Put proper column names for the data.
 
-4) Extract only the measurements on the mean and standard deviation for each measurement.
+> 4) Extract only the measurements on the mean and standard deviation for each measurement.
 
-5) Use descriptive activity names to name the activities in the data set.
+> 5) Use descriptive activity names to name the activities in the data set.
 
-6) Appropriately label the data set with descriptive variable names.
+> 6) Appropriately label the data set with descriptive variable names.
 
-7) From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject
+> 7) From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject
 
-8) Finally output the tidy data set to a text file.
+> 8) Finally output the tidy data set to a text file.
 
 ~ END ~
