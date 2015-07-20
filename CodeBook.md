@@ -5,9 +5,9 @@
 This code book describes:-
 
 > 1) The variables
-> 
+
 > 2) The data
-> 
+
 > 3) Work that was performed to clean up the data in order to produce a tidy data set
 
 ### 1) Variables
@@ -79,7 +79,7 @@ An R script called run_analysis.R is used to:-
 
 > 6) Appropriately label the data set with descriptive variable names.
 
-> 7) From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject
+> 7) From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 > 8) Finally output the tidy data set to a text file.
 
