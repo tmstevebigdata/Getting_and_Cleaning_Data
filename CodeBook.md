@@ -122,7 +122,7 @@ The following are the list of all variables in the tidy data set:-
 | 87  | Angle(Y,GravityMean)                                 |
 | 88  | Angle(Z,GravityMean)                                 |
 
-> Note: The unit of measurements are in radians/second.
+> Note: The unit of measurements are in ** radians/second**.
 
 The following are the list of all activity variables in the tidy data set:-
 
@@ -139,15 +139,15 @@ The following are the list of all activity variables in the tidy data set:-
 
 ### 2) Data
 
-The original data is derived from the "Human Activity Recognition Using Smartphones Data Set".
+The original data is derived from the **"Human Activity Recognition Using Smartphones Data Set"**.
 
 For a detailed explanation of the data set, refer to the following link:-
 
-> http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+> **http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones**
 
 The data source is taken from:-
 
-> https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+> **https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip**
 
 The datasets included in the unzipped data source file is as follows:-
 
@@ -179,7 +179,7 @@ The following files are available for the train and test data. Their description
 
 ### 3) Work performed to clean up the data and produce a tidy data set
 
-An R script called run_analysis.R is used to:-
+An R script called **run_analysis.R** is used to:-
 
 > 1) Read the 'features' and 'activity labels' data.
 
@@ -195,6 +195,6 @@ An R script called run_analysis.R is used to:-
 
 > 7) From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-> 8) Finally output the tidy data set to a text file (tidy_data.txt).
+> 8) Finally output the tidy data set to a text file **(tidy_data.txt)**.
 
 ~ END ~
