@@ -122,7 +122,20 @@ The following are the list of all variables in the tidy data set:-
 | 87  | Angle(Y,GravityMean)                                 |
 | 88  | Angle(Z,GravityMean)                                 |
 
-> Note: The unit of measurement are in radians/second.
+> Note: The unit of measurements are in radians/second.
+
+The following are the list of all activity variables in the tidy data set:-
+
+| No. | Activities            |
+| :-- | :-------------------- |
+| 1   | WALKING               |
+| 2   | WALKING_UPSTAIRS      |
+| 3   | WALKING_DOWNSTAIRS    |
+| 4   | SITTING               |
+| 5   | STANDING              |
+| 6   | LAYING                |
+
+> In total the tidy data set consists of 180 rows (excluding the header) and 88 columns.
 
 ### 2) Data
 
@@ -182,6 +195,6 @@ An R script called run_analysis.R is used to:-
 
 > 7) From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-> 8) Finally output the tidy data set to a text file.
+> 8) Finally output the tidy data set to a text file (tidy_data.txt).
 
 ~ END ~
