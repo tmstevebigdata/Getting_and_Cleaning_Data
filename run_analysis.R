@@ -81,19 +81,18 @@ df_AllCombinedData <- cbind(df_combined_features, df_combined_activity, df_combi
 ## Step 11 - Extract only the measurements on the mean and standard deviation for each measurement
 
 MeanSTDDataOnly <- grep("*mean*|*std*", names(df_AllCombinedData), ignore.case=TRUE)
-ActivityOnly <- grep("Activity", names(df_AllCombinedData), ignore.case=FALSE)
-SubjectOnly <- grep("Subject", names(df_AllCombinedData), ignore.case=FALSE)
-Data2Extract <- c(MeanSTDDataOnly, ActivityOnly, SubjectOnly)
-df_Extracted_Data <- df_AllCombinedData[, Data2Extract]
+ActivitySubjectOnly <- grep("Activity|Subject", names(df_AllCombinedData), ignore.case=FALSE)
+Data2Extract <- c(MeanSTDDataOnly, ActivitySubjectOnly)
+df_Final_Subset <- df_AllCombinedData[, Data2Extract]
 
 ## Step 12 - Use descriptive activity names to name the activities in the data set
 
-df_Extracted_Data$Activity <- as.character(df_Extracted_Data$Activity)
-for (i in 1:length(df_Extracted_Data$Activity))
+df_Final_Subset$Activity <- as.character(df_Final_Subset$Activity)
+for (i in 1:length(df_Final_Subset$Activity))
     {
-     df_Extracted_Data$Activity[df_Extracted_Data$Activity == i] <- as.character(df_activity_labels[i, 2])
+     df_Final_Subset$Activity[df_Final_Subset$Activity == i] <- as.character(df_activity_labels[i, 2])
     }
-df_Extracted_Data$Activity <- as.factor(df_Extracted_Data$Activity)
+df_Final_Subset$Activity <- as.factor(df_Final_Subset$Activity)
 
 ## Step 13 - Appropriately label the data set with descriptive variable names
 
@@ -102,15 +101,15 @@ df_New_Names <- c("Accelerometer", "Gyroscope", "Body", "Magnitude", "Time", "Fr
 
 for (i in 1:length(df_Ori_Names))
     {
-     names(df_Extracted_Data) <- gsub(df_Ori_Names[i], df_New_Names[i], names(df_Extracted_Data), ignore.case = TRUE)
+     names(df_Final_Subset) <- gsub(df_Ori_Names[i], df_New_Names[i], names(df_Final_Subset), ignore.case = TRUE)
     }
 
 ## Step 14 - From the data set in step 13, create a second, independent tidy data set with the average of each variable for each activity and each subject
 
-df_Extracted_Data$Subject <- as.factor(df_Extracted_Data$Subject)
-df_Extracted_Data <- data.table(df_Extracted_Data)
+df_Final_Subset$Subject <- as.factor(df_Final_Subset$Subject)
+df_Final_Subset <- data.table(df_Final_Subset)
 
-dt_Tidy_Data <- aggregate(. ~Subject + Activity, df_Extracted_Data, mean)
+dt_Tidy_Data <- aggregate(. ~Subject + Activity, df_Final_Subset, mean)
 dt_Tidy_Data <- dt_Tidy_Data[order(dt_Tidy_Data$Subject, dt_Tidy_Data$Activity), ]
 
 ## Step 15 - Finally output the tidy data set to a text file
