@@ -122,7 +122,7 @@ The following are the list of all variables in the tidy data set:-
 | 87  | Angle(Y,GravityMean)                                 |
 | 88  | Angle(Z,GravityMean)                                 |
 
-> Note: The unit of measurements are in ** radians/second**.
+> Note: The unit of measurements are in radians/second.
 
 The following are the list of all activity variables in the tidy data set:-
 
