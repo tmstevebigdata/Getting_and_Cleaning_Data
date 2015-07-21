@@ -75,6 +75,6 @@ Data used for this course project is obtained from the link below:-
 
 > Step 14 - From the data set in step 13, create a second, independent tidy data set with the average of each variable for each activity and each subject
 
-> Step 15 - Finally output the tidy data set to a text file
+> Step 15 - Finally output the tidy data set to a text file (tidy_data.txt)
 
 ~ END ~
