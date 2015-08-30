@@ -24,7 +24,7 @@ The GitHub repo consist of 4 files as detailed below:-
 
 > 1) **README.md** - This file explains the purpose of the project and the steps in the R code.
 
-> 2) **run_analysis.R** - The R source code used to product the Tidy Data file.
+> 2) **run_analysis.R** - The R source code used to produce the Tidy Data file.
 
 > 3) **tidy_data.txt** - Tidy Data file in .txt format.
 
@@ -65,7 +65,7 @@ Data used for this course project is obtained from the link below:-
 
 > **Step 9** - Put column names into the combined data frames
 
-> **Step 10** - Merges the training and the test data sets to create one data set
+> **Step 10** - Mergers the training and the test data sets to create one data set
 
 > **Step 11** - Extract only the measurements on the mean and standard deviation for each measurement
 
